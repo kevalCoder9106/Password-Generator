@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Head from 'next/head'
 
 function Home(){
   const [pass,updatePass] = useState('Password')
@@ -57,6 +58,9 @@ function Home(){
 
   return(
     <div className="w-screen h-screen flex flex-col 2xl:flex-row text-white font-mono">
+      <Head>
+        <link rel='icon' href='/40.png' type='image/x-icon'/>
+      </Head>
       <div className="2xl:w-1/2 2xl:h-full w-full h-1/4 bg-slate-800 flex flex-row items-center justify-center">
         <div className="w-1/2 p-2 h-10 flex flex-row items-center bg-gray-600 rounded-sm">{pass}</div>
         <button onClick={copyText} className="mx-5 p-2 rounded text-sm bg-gray-300 text-black hover:bg-gray-400 active:bg-gray-700">Copy</button>
