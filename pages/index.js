@@ -6,6 +6,8 @@ function Home(){
 
   // array of pass values
   const alp_cap = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+  const alp_sm = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','o','q','r','s','t','u','v','w','x','y','z']
+  const numbers = ['0','1','2','3','4','5','6','7','8','9']
   const symbols = ['!','@','#','$','%','^','&','*','(',')']
 
   const generatePassword = () => {
@@ -19,34 +21,15 @@ function Home(){
 
     const checked = []
 
-    if (alp_cap_el.checked) { checked.push(0) }
-    if (alp_sm_el.checked) { checked.push(0) }
-    if (numbers_el.checked) { checked.push(0) }
-    if (symbols_el.checked) { checked.push(0) }
+    if (alp_cap_el.checked) { checked.push(alp_cap) }
+    if (alp_sm_el.checked) { checked.push(alp_sm) }
+    if (numbers_el.checked) { checked.push(numbers) }
+    if (symbols_el.checked) { checked.push(symbols) }
 
     for (let i = 0; i < len; i++){
-      let base_sel = Math.floor(Math.random() * checked.length)
-
-      if (base_sel === 0){
-        // alp_cap
-        var alp_cap_rand_sel = alp_cap[Math.floor(Math.random(0) * alp_cap.length)]
-        password += alp_cap_rand_sel
-      }
-      else if(base_sel === 1){
-        // alp_sm
-        var alp_sm_rand_sel = alp_cap[Math.floor(Math.random(0) * alp_cap.length)]
-        password += String(alp_sm_rand_sel).toLowerCase()
-      }
-      else if(base_sel === 2){
-        // num
-        var num_rand_sel = Math.floor((Math.random(0) * 10)).toString()
-        password += num_rand_sel
-      }
-      else if(base_sel === 3){
-        // symbols
-        var symbol_rand_sel = symbols[Math.floor(Math.random(0) * symbols.length)]
-        password += symbol_rand_sel
-      }
+      const base_1 = checked[Math.floor(Math.random() * checked.length)]
+      
+      password += base_1[Math.floor(Math.random() * base_1.length)]
     }
 
     updatePass(password)
