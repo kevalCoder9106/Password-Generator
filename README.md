@@ -1,1 +1,44 @@
-# Password-Generator
+
+![Logo](https://lh3.googleusercontent.com/Yg5bmB8ArChZ9-QAi5mhQJxPtqZ_vxL7R2JKZO-QJ5yQQPCpGcmu2KiiNVluXhXBTOJUOMT2O5VM_iX1ajq0TmUZ94kX1BUqQ6H7G9F_imZTCP_U_0g-SENHw7HWnUjq4xQaagFIo4bvJ-KAXdWVWBeGf5-BmpR_pHk7c1m1Wuq63x_kiVrO53T4N7AyMSad8CFmG3TH-PgnUX4j5RM7MaA9Vw5-u2kUTN098EFCXSTlYRNNNhRv_yLPK9GGPGekID_anWd0wkRIkE7yZhSbTvqOY2VPYLtdRyow_wTVXzkrgtVk93UTwfZ1C3MA5D57CAC-m8baEb5ju-6zKZHweymb1Wq8FKpUWIJXbCfyHlODa6l6OByE_xXurktawicLT7X152d4NmcxaXChPVCNNloNQLkpN8tqAtE08gqywWb8NEM1Nxz2P1nSf1r_Q48hqVw5Bu_MWsGh0YaBHxjSjrVLa_0W-gzV8dE0bGgLw8ECVCSXSd7poQicKgH8hNeioUTcxvJY-Ze2DTMtLBuc0tpdBiQEHKG2xBrNY-EwkZNVoDxhTDpP9EtG28DBx4lFwjeIrAQ7DvnRL7smC9HsGfEQTqlzilr17fqm54khNZm1BdGyNU2tkDTrGo50lC5aNc3w__NviCSrruFXaaFGopur1TDMqYGEHeNg4pyEsi2UgJt9zTbCvOWZMVJnPddIRftUDh1285ZkHvRAB5tRqVZbyXdB3-8OKkpgJTiqThihrlbqSzXOLFO612nyTw=s80-no?authuser=0)
+
+
+# Password generator
+
+It's in name, i don't have to explain further.
+
+
+## Demo
+
+https://password-generator-kevalcoder9106.vercel.app/
+
+## Screenshots
+
+![App Screenshot](https://lh3.googleusercontent.com/5f4BN8f8UKzxU_TnDlmgWzp-j7HSJ4xdwfMGw4VverG381aQ3aAm0rEs03LigHRY4ntWD4pGnSgWgzDdswa4tdofrlb8NdXuAde_koK5KikMf2JyE_o10UnNutxMlr2DXmxRWeRpurET35KSEIffuiTaERy2qO-j-ByTc6NyDGNClAAKEr49cXvXRmVDWFWtrEQI1tsaFx0kwSwDNz3qRPoJ946NwdNnjwgXNgVtyBFJ8GCPg_rMXs1et81gIeGuI5wwntPcJCXSyPagOQ43pbCNEluPYCKHkA4wMDgCoxD17qJBjYQq5By1ZsoVMVT9-lipV2vk3C50dVK1CDYjcPtmruNofVzayyLqC0baLfIaH-O4MschtPT8mB5Ij3DS3PPBArAA3iGXlHrp4BkTphQQ1sQJxm2xx_GdQ_et2wopj3GzbpsTvfGrmHZwGdOp7nN7cMBFy_Kwc6GgtPAbdn3m1fTSViRobge32WsZKrP0NPwmNpFMx3UU4yFMVYDax7hPrYuqWJrYZyir-gxPN99v_vT_T8yVNjburYbQ8UzYe9ZDPWAeepfOzhXO87PddEmtbswV1-L4XP0LWXQgMXg7vVe9V24wK4JW3px63-96L0eSKb9qbsGKhhpV7cLEPDTHzghF2cQApgs0h0xfo42c7Z_7NuF3ztpG1mLrIHOAFh0eIYbpK7GlzNxxO6_fWPMI_uHDcku5o5Mx6OSDjL65vxSn-o32gtSUhE25bXhNWbvLoyU5k9SMJw16cg=w376-h806-no?authuser=0)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/kevalCoder9106/Password-Generator
+```
+
+Go to the project directory
+
+```bash
+  cd Password-Generator
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
